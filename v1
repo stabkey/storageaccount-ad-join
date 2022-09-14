@@ -12,7 +12,7 @@ Import-Module -Name AzFilesHybrid
 Connect-AzAccount
  
 #Define parameters
-$SubscriptionId = "xxxxxxxxxxxxxx" #サブスクリプション名を入力してください
+$SubscriptionId = "xxxxxxxxxxxxxx" #サブスクリプションIDを入力してください
 $ResourceGroupName = "xxxxxxxxxxx" #リソースグループ名を入力してください
 $StorageAccountName = "xxxxxxxxxx" #ストレージアカウント名を入力してください
 $OUName = "OU=xxxxx,DC=xxx,DC=xxx" #OUの名前を入力してください
